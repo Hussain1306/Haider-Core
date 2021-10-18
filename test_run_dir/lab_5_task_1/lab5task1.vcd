@@ -1,0 +1,50 @@
+$date
+2021-09-26T17:46+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module lab5task1 $end
+ $var wire 8 ! _io_sum_T $end
+ $var wire 7 " io_in0 $end
+ $var wire 1 # clock $end
+ $var wire 1 $ reset $end
+ $var wire 7 % io_sum $end
+ $var wire 7 & io_in1 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0#
+b00000000 !
+b0000000 %
+b0000000 "
+0$
+b0000000 &
+$end
+#0
+1$
+#1
+1#
+#6
+b00001011 !
+b0001011 %
+b0000100 "
+b0000111 &
+0#
+0$
+#11
+1#
+#16
+b00000000 !
+b0000000 %
+b0000000 "
+b0000000 &
+0#
+#21
+1#
+#26
+0#

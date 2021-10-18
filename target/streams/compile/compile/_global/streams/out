@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Data_Mem.scala:23:18: not found: value memory[0m
+[0m[[0m[31merror[0m] [0m[0m		io.data_out := memory.read(io.addr)[0m
+[0m[[0m[31merror[0m] [0m[0m		               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Data_Mem.scala:25:3: not found: value memory[0m
+[0m[[0m[31merror[0m] [0m[0m		memory.write(io.addr, io.data_in)[0m
+[0m[[0m[31merror[0m] [0m[0m		^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

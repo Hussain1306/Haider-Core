@@ -1,0 +1,32 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Switch_2_Cross/switch2cross.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~switch2cross|switch2cross>io_o1",
+    "sources":[
+      "~switch2cross|switch2cross>io_sel",
+      "~switch2cross|switch2cross>io_i2",
+      "~switch2cross|switch2cross>io_i1"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~switch2cross|switch2cross>io_o2",
+    "sources":[
+      "~switch2cross|switch2cross>io_sel",
+      "~switch2cross|switch2cross>io_i1",
+      "~switch2cross|switch2cross>io_i2"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Switch_2_Cross"
+  }
+]

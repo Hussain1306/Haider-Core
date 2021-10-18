@@ -1,0 +1,26 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/lab_7_ex_1/lab7ex1.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~lab7ex1|Queue",
+    "duplicate":"~lab7ex1|lab7ex1/producer_q1:Queue",
+    "index":0.0
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~lab7ex1|Queue_1",
+    "duplicate":"~lab7ex1|lab7ex1/producer_q2:Queue",
+    "index":0.3333333333333333
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/lab_7_ex_1"
+  }
+]

@@ -1,0 +1,69 @@
+$date
+2021-09-22T08:00+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module lab3task3 $end
+ $var wire 1 ! _T $end
+ $var wire 1 " _GEN_2 $end
+ $var wire 4 # _GEN_5 $end
+ $var wire 4 $ io_out_bits $end
+ $var wire 4 % _GEN_1 $end
+ $var wire 1 & _GEN_4 $end
+ $var wire 1 ' clock $end
+ $var wire 1 ( io_out_valid $end
+ $var wire 2 ) io_in $end
+ $var wire 1 * reset $end
+ $var wire 4 + _GEN_3 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0"
+b0000 $
+0&
+b0000 +
+0*
+0'
+b00 )
+b0000 %
+0!
+b0000 #
+0(
+$end
+#0
+1!
+1*
+b0001 $
+1(
+#1
+1'
+#6
+0!
+1"
+1&
+b0100 #
+0*
+0'
+b0100 $
+b0100 +
+b10 )
+#11
+1'
+#16
+1!
+0"
+0&
+b0000 #
+0'
+b0001 $
+b0000 +
+b00 )
+#21
+1'
+#26
+0'

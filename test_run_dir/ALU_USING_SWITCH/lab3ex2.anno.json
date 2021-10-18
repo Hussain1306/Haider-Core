@@ -1,0 +1,32 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/ALU_USING_SWITCH/lab3ex2.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~lab3ex2|lab3ex2>io_sum",
+    "sources":[
+      "~lab3ex2|lab3ex2>io_in_A",
+      "~lab3ex2|lab3ex2>io_in_B",
+      "~lab3ex2|lab3ex2>io_alu_Op"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~lab3ex2|lab3ex2>io_out",
+    "sources":[
+      "~lab3ex2|lab3ex2>io_alu_Op",
+      "~lab3ex2|lab3ex2>io_in_A",
+      "~lab3ex2|lab3ex2>io_in_B"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/ALU_USING_SWITCH"
+  }
+]

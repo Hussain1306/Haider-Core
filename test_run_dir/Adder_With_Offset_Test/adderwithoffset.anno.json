@@ -1,0 +1,22 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Adder_With_Offset_Test/adderwithoffset.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~adderwithoffset|adderwithoffset>io_c",
+    "sources":[
+      "~adderwithoffset|adderwithoffset>io_b",
+      "~adderwithoffset|adderwithoffset>io_a"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Adder_With_Offset_Test"
+  }
+]

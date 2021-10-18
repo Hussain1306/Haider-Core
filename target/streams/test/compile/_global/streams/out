@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/RISC_V/ALUTest.scala:12:26: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.SInt[0m
+[0m[[0m[31merror[0m] [0m[0m      c.io.arg_x.poke(10.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/RISC_V/ALUTest.scala:13:26: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.SInt[0m
+[0m[[0m[31merror[0m] [0m[0m      c.io.arg_y.poke(20.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/RISC_V/ALUTest.scala:15:30: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.SInt[0m
+[0m[[0m[31merror[0m] [0m[0m      c.io.alu_out.expect(30.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

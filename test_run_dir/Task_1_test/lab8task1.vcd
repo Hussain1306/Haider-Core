@@ -1,0 +1,1458 @@
+$date
+2021-10-01T21:57+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module lab8task1 $end
+ $var wire 10 ) mem_1_MPORT_1_addr_pipe_0 $end
+ $var wire 10 3 mem_2_MPORT_1_addr_pipe_0 $end
+ $var wire 32 : io_requestor_2_bits $end
+ $var wire 10 < mem_3_MPORT_1_addr_pipe_0 $end
+ $var wire 5 A io_writeaddr $end
+ $var wire 1 U io_requestor_1_valid $end
+ $var wire 1 Z arb_io_in_2_q $end
+ $var wire 32 f io_requestor_3_bits $end
+ $var wire 32 o io_memory_out_0 $end
+ $var wire 32 p mem_1 $end
+ $var wire 1 w io_requestor_2_ready $end
+ $var wire 1 "! io_requestor_0_valid $end
+ $var wire 32 "+ io_memory_out_3 $end
+ $var wire 1 "B arb $end
+ $var wire 32 "M io_memory_out_2 $end
+ $var wire 32 "Q mem_3 $end
+ $var wire 1 "S clock $end
+ $var wire 1 "l io_requestor_3_valid $end
+ $var wire 1 "p arb_io_in_1_q $end
+ $var wire 1 "{ io_requestor_1_ready $end
+ $var wire 5 #" io_readaddr $end
+ $var wire 32 #$ mem_0 $end
+ $var wire 32 #) io_requestor_0_bits $end
+ $var wire 10 #5 mem_0_MPORT_1_addr_pipe_0 $end
+ $var wire 1 #< io_requestor_2_valid $end
+ $var wire 1 #B arb_io_in_0_q $end
+ $var wire 1 #I io_requestor_0_ready $end
+ $var wire 1 #J reset $end
+ $var wire 1 #K arb_io_in_3_q $end
+ $var wire 32 #P io_requestor_1_bits $end
+ $var wire 32 #Y mem_2 $end
+ $var wire 1 #[ io_requestor_3_ready $end
+ $var wire 32 #f io_memory_out_1 $end
+  $scope module arb_io_in_3_q $end
+   $var wire 1 ' _GEN_7 $end
+   $var wire 1 9 value $end
+   $var wire 2 C _value_T_2 $end
+   $var wire 1 I clock $end
+   $var wire 32 b io_enq_bits $end
+   $var wire 32 c io_deq_bits $end
+   $var wire 1 g io_deq_ready $end
+   $var wire 1 m _value_T_1 $end
+   $var wire 1 q do_deq $end
+   $var wire 1 t full $end
+   $var wire 1 "% _GEN_6 $end
+   $var wire 1 ") io_enq_valid $end
+   $var wire 1 "0 maybe_full $end
+   $var wire 1 "9 reset $end
+   $var wire 2 "D _value_T $end
+   $var wire 1 "U value_1 $end
+   $var wire 1 "W do_enq $end
+   $var wire 1 "^ _GEN_5 $end
+   $var wire 1 "g _empty_T $end
+   $var wire 1 "y ptr_match $end
+   $var wire 1 #! io_enq_ready $end
+   $var wire 1 #& _T $end
+   $var wire 32 #, ram $end
+   $var wire 1 #2 _value_T_3 $end
+   $var wire 1 #9 io_deq_valid $end
+   $var wire 1 #e empty $end
+    $scope module ram $end
+     $var wire 32 "c MPORT $end
+      $scope module io_deq_bits_MPORT $end
+       $var wire 32 " data $end
+       $var wire 1 N clk $end
+       $var wire 1 "q en $end
+       $var wire 1 ## addr $end
+      $upscope $end
+      $scope module MPORT $end
+       $var wire 1 ; valid $end
+       $var wire 1 F addr $end
+       $var wire 1 H pipeline_addr_0 $end
+       $var wire 1 ". pipeline_valid_0 $end
+       $var wire 1 "4 clk $end
+       $var wire 32 "5 data $end
+       $var wire 32 "Z pipeline_data_0 $end
+       $var wire 1 #F en $end
+       $var wire 1 #T mask $end
+      $upscope $end
+    $upscope $end
+  $upscope $end
+  $scope module arb_io_in_2_q $end
+   $var wire 1 # io_enq_ready $end
+   $var wire 1 2 _empty_T $end
+   $var wire 1 7 io_deq_valid $end
+   $var wire 32 = ram $end
+   $var wire 1 O _GEN_7 $end
+   $var wire 1 [ empty $end
+   $var wire 2 i _value_T_2 $end
+   $var wire 1 k do_deq $end
+   $var wire 1 "6 value_1 $end
+   $var wire 1 "7 clock $end
+   $var wire 1 "@ _T $end
+   $var wire 1 "F full $end
+   $var wire 1 "N _GEN_6 $end
+   $var wire 1 "R io_deq_ready $end
+   $var wire 1 "Y maybe_full $end
+   $var wire 1 "] value $end
+   $var wire 32 "_ io_enq_bits $end
+   $var wire 32 "b io_deq_bits $end
+   $var wire 1 "u _value_T_1 $end
+   $var wire 1 "z io_enq_valid $end
+   $var wire 1 #+ _GEN_5 $end
+   $var wire 1 #7 do_enq $end
+   $var wire 1 #\ _value_T_3 $end
+   $var wire 1 #^ reset $end
+   $var wire 1 #g ptr_match $end
+   $var wire 2 #j _value_T $end
+    $scope module ram $end
+     $var wire 32 #' MPORT $end
+      $scope module io_deq_bits_MPORT $end
+       $var wire 32 0 data $end
+       $var wire 1 > en $end
+       $var wire 1 "V clk $end
+       $var wire 1 #6 addr $end
+      $upscope $end
+      $scope module MPORT $end
+       $var wire 1 Q en $end
+       $var wire 32 W data $end
+       $var wire 1 ^ pipeline_valid_0 $end
+       $var wire 1 "1 clk $end
+       $var wire 1 "3 valid $end
+       $var wire 1 "= pipeline_addr_0 $end
+       $var wire 1 "i mask $end
+       $var wire 1 #Q addr $end
+       $var wire 32 #W pipeline_data_0 $end
+      $upscope $end
+    $upscope $end
+  $upscope $end
+  $scope module arb_io_in_0_q $end
+   $var wire 1 - ptr_match $end
+   $var wire 1 . empty $end
+   $var wire 1 8 _value_T_1 $end
+   $var wire 1 ? _T $end
+   $var wire 1 D io_enq_valid $end
+   $var wire 1 G do_enq $end
+   $var wire 1 M _GEN_5 $end
+   $var wire 1 P value_1 $end
+   $var wire 1 R io_deq_ready $end
+   $var wire 32 T io_deq_bits $end
+   $var wire 1 X value $end
+   $var wire 1 \ clock $end
+   $var wire 1 j _value_T_3 $end
+   $var wire 32 "* io_enq_bits $end
+   $var wire 1 "- _GEN_7 $end
+   $var wire 1 "P reset $end
+   $var wire 1 "j io_enq_ready $end
+   $var wire 1 "s do_deq $end
+   $var wire 1 "x io_deq_valid $end
+   $var wire 2 "| _value_T_2 $end
+   $var wire 32 "} ram $end
+   $var wire 1 #1 _empty_T $end
+   $var wire 1 #: _GEN_6 $end
+   $var wire 2 #@ _value_T $end
+   $var wire 1 #S full $end
+   $var wire 1 #h maybe_full $end
+    $scope module ram $end
+     $var wire 32 * MPORT $end
+      $scope module MPORT $end
+       $var wire 1 ( pipeline_valid_0 $end
+       $var wire 1 K mask $end
+       $var wire 1 ] pipeline_addr_0 $end
+       $var wire 1 e clk $end
+       $var wire 1 "$ addr $end
+       $var wire 1 "m en $end
+       $var wire 32 "w pipeline_data_0 $end
+       $var wire 32 "~ data $end
+       $var wire 1 #> valid $end
+      $upscope $end
+      $scope module io_deq_bits_MPORT $end
+       $var wire 1 J clk $end
+       $var wire 1 "? en $end
+       $var wire 1 "E addr $end
+       $var wire 32 #= data $end
+      $upscope $end
+    $upscope $end
+  $upscope $end
+  $scope module arb_io_in_1_q $end
+   $var wire 1 $ ptr_match $end
+   $var wire 32 % io_enq_bits $end
+   $var wire 1 L _value_T_3 $end
+   $var wire 1 a reset $end
+   $var wire 32 l ram $end
+   $var wire 1 r value_1 $end
+   $var wire 1 v io_enq_ready $end
+   $var wire 1 z _T $end
+   $var wire 2 } _value_T $end
+   $var wire 1 "' io_deq_valid $end
+   $var wire 1 "( _GEN_7 $end
+   $var wire 2 "H _value_T_2 $end
+   $var wire 1 "J do_deq $end
+   $var wire 1 "L _empty_T $end
+   $var wire 1 "T _GEN_6 $end
+   $var wire 1 "X empty $end
+   $var wire 1 "v full $end
+   $var wire 1 #/ maybe_full $end
+   $var wire 1 #4 clock $end
+   $var wire 1 #? io_enq_valid $end
+   $var wire 32 #A io_deq_bits $end
+   $var wire 1 #E io_deq_ready $end
+   $var wire 1 #H _value_T_1 $end
+   $var wire 1 #N value $end
+   $var wire 1 #Z _GEN_5 $end
+   $var wire 1 #c do_enq $end
+    $scope module ram $end
+     $var wire 32 #_ MPORT $end
+      $scope module MPORT $end
+       $var wire 1 B pipeline_valid_0 $end
+       $var wire 1 y clk $end
+       $var wire 32 | pipeline_data_0 $end
+       $var wire 1 "" mask $end
+       $var wire 1 "A en $end
+       $var wire 1 "a addr $end
+       $var wire 1 "o valid $end
+       $var wire 1 #M pipeline_addr_0 $end
+       $var wire 32 #X data $end
+      $upscope $end
+      $scope module io_deq_bits_MPORT $end
+       $var wire 1 "r addr $end
+       $var wire 1 #C en $end
+       $var wire 32 #] data $end
+       $var wire 1 #` clk $end
+      $upscope $end
+    $upscope $end
+  $upscope $end
+  $scope module arb $end
+   $var wire 1 & _grant_T $end
+   $var wire 1 + io_in_2_ready $end
+   $var wire 1 E io_in_0_valid $end
+   $var wire 1 h io_in_1_ready $end
+   $var wire 32 ~ io_in_0_bits $end
+   $var wire 32 "< _GEN_1 $end
+   $var wire 1 "O io_in_2_valid $end
+   $var wire 32 "\ io_in_1_bits $end
+   $var wire 32 "e io_out_bits $end
+   $var wire 1 #% io_in_3_ready $end
+   $var wire 32 #* _GEN_3 $end
+   $var wire 32 #8 io_in_2_bits $end
+   $var wire 1 #D _grant_T_1 $end
+   $var wire 32 #b io_in_3_bits $end
+   $var wire 1 #i io_in_1_valid $end
+  $upscope $end
+  $scope module mem_0 $end
+   $var wire 32 , MPORT $end
+    $scope module MPORT_1 $end
+     $var wire 1 ! clk $end
+     $var wire 1 "K en $end
+     $var wire 10 "h addr $end
+     $var wire 32 #l data $end
+    $upscope $end
+    $scope module MPORT $end
+     $var wire 10 / pipeline_addr_0 $end
+     $var wire 32 V data $end
+     $var wire 32 x pipeline_data_0 $end
+     $var wire 1 "8 en $end
+     $var wire 1 "> clk $end
+     $var wire 1 "d mask $end
+     $var wire 1 #( valid $end
+     $var wire 10 #L addr $end
+     $var wire 1 #a pipeline_valid_0 $end
+    $upscope $end
+  $upscope $end
+  $scope module mem_3 $end
+   $var wire 32 @ MPORT $end
+    $scope module MPORT $end
+     $var wire 32 1 data $end
+     $var wire 1 4 en $end
+     $var wire 1 d pipeline_valid_0 $end
+     $var wire 1 n valid $end
+     $var wire 32 u pipeline_data_0 $end
+     $var wire 1 "G mask $end
+     $var wire 10 #. addr $end
+     $var wire 10 #G pipeline_addr_0 $end
+     $var wire 1 #U clk $end
+    $upscope $end
+    $scope module MPORT_1 $end
+     $var wire 10 6 addr $end
+     $var wire 32 ", data $end
+     $var wire 1 "/ en $end
+     $var wire 1 "k clk $end
+    $upscope $end
+  $upscope $end
+  $scope module mem_1 $end
+   $var wire 32 #O MPORT $end
+    $scope module MPORT_1 $end
+     $var wire 1 5 en $end
+     $var wire 10 ": addr $end
+     $var wire 32 #0 data $end
+     $var wire 1 #d clk $end
+    $upscope $end
+    $scope module MPORT $end
+     $var wire 1 Y en $end
+     $var wire 32 { pipeline_data_0 $end
+     $var wire 1 "# mask $end
+     $var wire 1 "2 pipeline_valid_0 $end
+     $var wire 10 "; addr $end
+     $var wire 1 "f valid $end
+     $var wire 1 "n clk $end
+     $var wire 32 #3 data $end
+     $var wire 10 #V pipeline_addr_0 $end
+    $upscope $end
+  $upscope $end
+  $scope module mem_2 $end
+   $var wire 32 "I MPORT $end
+    $scope module MPORT $end
+     $var wire 10 S addr $end
+     $var wire 1 ` en $end
+     $var wire 32 s pipeline_data_0 $end
+     $var wire 1 "& valid $end
+     $var wire 32 "C data $end
+     $var wire 1 #- pipeline_valid_0 $end
+     $var wire 1 #; clk $end
+     $var wire 10 #R pipeline_addr_0 $end
+     $var wire 1 #k mask $end
+    $upscope $end
+    $scope module MPORT_1 $end
+     $var wire 10 _ addr $end
+     $var wire 32 "[ data $end
+     $var wire 1 "` en $end
+     $var wire 1 "t clk $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0#D
+0"1
+0#c
+b00000000000000000000000000000000 "M
+0"P
+0#1
+0"v
+0m
+b00000000000000000000000000000000 "I
+b00000000000000000000000000000000 #*
+0"r
+0#S
+1#C
+b00000000000000000000000000000000 b
+0a
+0L
+0"@
+0D
+b00000000000000000000000000000000 0
+0#!
+b00000000000000000000000000000000 "\
+b00000000000000000000000000000000 #=
+b00000000000000000000000000000000 "*
+b0000000000 #V
+0z
+0"n
+1#T
+b00000000000000000000000000000000 s
+0]
+0#2
+0H
+0r
+1>
+0+
+b00000000000000000000000000000000 "C
+b00000000000000000000000000000000 #$
+b0000000000 #5
+b0000000000 _
+0"l
+0#M
+0#E
+0"O
+b00000000000000000000000000000000 T
+0"2
+b00 "H
+0#^
+0O
+0".
+b00000000000000000000000000000000 "5
+1"/
+b00000000000000000000000000000000 "c
+b00 #j
+0?
+1"#
+0"o
+b00000000000000000000000000000000 #8
+0"=
+b00000000000000000000000000000000 #W
+0;
+b00000000000000000000000000000000 #f
+0#a
+0"k
+b00000000000000000000000000000000 p
+0Z
+0"N
+0#/
+0"9
+0k
+1"d
+0N
+09
+0"-
+1"G
+b00000000000000000000000000000000 "Q
+b0000000000 #.
+1"`
+0J
+0-
+b00000000000000000000000000000000 "w
+b00000000000000000000000000000000 #X
+b00000000000000000000000000000000 "b
+0"z
+0"]
+0#>
+0#[
+1""
+b00000000000000000000000000000000 {
+0"Y
+0#:
+b00000000000000000000000000000000 ",
+b00000000000000000000000000000000 ,
+b00 "|
+b0000000000 #R
+0#`
+b00000000000000000000000000000000 o
+0n
+b00000000000000000000000000000000 =
+0'
+0"{
+0#\
+0j
+b0000000000 ";
+1K
+0U
+0M
+08
+0#
+b0000000000 )
+b00000000000000000000000000000000 "e
+b00 "D
+0"y
+0#Z
+b00000000000000000000000000000000 ~
+0h
+0#(
+b00 i
+0y
+0"m
+0"X
+0#9
+0\
+0G
+0#N
+0"&
+b00000000000000000000000000000000 @
+b00000000000000000000000000000000 "_
+0X
+0"L
+0"7
+0#-
+0&
+b0000000000 ":
+0"g
+0#H
+b00000000000000000000000000000000 l
+0"J
+0#+
+b00000000000000000000000000000000 :
+0"x
+b00000000000000000000000000000000 #A
+0g
+0#<
+0"F
+0")
+b0000000000 #G
+1Y
+1"q
+0[
+0F
+1"?
+1#k
+b0000000000 3
+b00 C
+0#h
+b00000000000000000000000000000000 #P
+0v
+0"j
+0#K
+0"U
+0#6
+b00000000000000000000000000000000 #3
+0#d
+0!
+0"f
+b00000000000000000000000000000000 V
+0"4
+b00000000000000000000000000000000 |
+0#;
+0"E
+0#&
+0I
+0Q
+0"(
+b00000000000000000000000000000000 "~
+b00000000000000000000000000000000 #_
+b00000 A
+0#i
+0w
+0"V
+b0000000000 S
+0#7
+0E
+b0000000000 6
+0"$
+0(
+0"u
+b00000000000000000000000000000000 #)
+b00000000000000000000000000000000 "+
+0#g
+0#J
+b00000 #"
+0"T
+b00000000000000000000000000000000 "<
+1"K
+1R
+0#F
+0q
+15
+0"3
+1"8
+07
+b00000000000000000000000000000000 #b
+b00000000000000000000000000000000 #0
+b0000000000 "h
+0"a
+0#B
+0e
+b00000000000000000000000000000000 f
+0#%
+0P
+0"'
+b00000000000000000000000000000000 "}
+b00000000000000000000000000000000 #,
+0"t
+0#U
+0"W
+0"B
+0##
+0"%
+b00000000000000000000000000000000 *
+0"p
+0#Q
+b00 }
+b00000000000000000000000000000000 u
+0"S
+0">
+0#4
+0#I
+0"6
+0"!
+0t
+0B
+b00000000000000000000000000000000 "Z
+b0000000000 #L
+1"i
+14
+b0000000000 /
+b00000000000000000000000000000000 "
+b00 #@
+0d
+02
+b00000000000000000000000000000000 #]
+0"0
+b0000000000 <
+0.
+b00000000000000000000000000000000 #Y
+1`
+0"s
+0"^
+b00000000000000000000000000000000 x
+b00000000000000000000000000000000 #'
+0#?
+0"A
+b00000000000000000000000000000000 c
+b00000000000000000000000000000000 "[
+b00000000000000000000000000000000 1
+0#e
+0^
+0"R
+b00000000000000000000000000000000 W
+b00000000000000000000000000000000 #l
+0$
+b00000000000000000000000000000000 #O
+b00000000000000000000000000000000 %
+$end
+#0
+b01 #j
+b01 #@
+1g
+1"u
+b01 }
+1h
+1"X
+1"&
+b01 i
+1a
+1L
+1j
+1"R
+1#g
+1#J
+12
+1"j
+1+
+1"9
+1#E
+1-
+1"P
+1#1
+b01 C
+1v
+1"f
+1#2
+1#e
+1.
+1w
+1"g
+1#H
+b01 "|
+1#^
+1#I
+1[
+1"L
+b01 "D
+1#%
+18
+1#
+1"y
+1$
+1#(
+1#[
+1m
+b01 "H
+1#\
+1"{
+1#!
+1n
+#1
+1"2
+1#U
+1"t
+1#d
+1J
+1"4
+1"n
+1#;
+1\
+1#-
+1#`
+1!
+1"S
+1N
+1#4
+1">
+1y
+1d
+1"7
+1e
+1"1
+1#a
+1"k
+1"V
+1I
+#6
+1Q
+0#U
+0"t
+1"W
+b0000000010 S
+0"n
+1M
+0"S
+0#4
+0">
+0y
+1"!
+1G
+b0000000010 #.
+0I
+1"l
+b00010 A
+0#d
+0"4
+0#^
+0\
+0#`
+1?
+1#&
+1"(
+1#Z
+b00000000000000000000000000000001 "*
+1;
+1#?
+1"^
+1"A
+0J
+b0000000010 ";
+0a
+1"o
+0#;
+0N
+0#J
+0"7
+0e
+1z
+0"k
+0"V
+1#7
+b0000000010 #L
+0"9
+1#c
+1"m
+1#F
+0"P
+1"3
+1D
+1'
+1#+
+1"-
+b00000000000000000000000000000001 "~
+0!
+1U
+1#<
+0"1
+1")
+1"z
+1O
+1#>
+b00000000000000000000000000000001 #)
+1"@
+#11
+b10 #j
+1#U
+1"t
+b10 #@
+b10 }
+0h
+1"n
+1"Y
+1#:
+1"'
+0M
+1#Q
+1"S
+1#4
+1">
+1y
+1#h
+02
+1^
+1I
+0#E
+1"O
+1#d
+1X
+0.
+b0000000010 #G
+1&
+1"4
+1E
+1(
+1".
+1\
+1#`
+b00000000000000000000000000000001 T
+0?
+b00000000000000000000000000000001 "w
+1"0
+b00000000000000000000000000000001 V
+0"y
+0#Z
+19
+0$
+b00000000000000000000000000000001 #=
+0m
+1"s
+0"^
+1"$
+0g
+b0000000010 #V
+0"u
+1J
+1#9
+0"X
+b00000000000000000000000000000001 ~
+17
+1#;
+b0000000010 /
+0"R
+1N
+0#g
+b0000000010 #R
+1F
+1"7
+1e
+1#i
+1"k
+1"V
+0+
+1#/
+1#N
+1B
+0-
+b00000000000000000000000000000001 "e
+0#1
+0#e
+0"g
+0#H
+0#+
+0[
+1"a
+0"L
+1!
+b10 "D
+0#%
+1"x
+1#D
+08
+1"1
+1"]
+#16
+0#U
+0"t
+0#d
+0J
+0"4
+0"n
+0#;
+0\
+0#`
+0!
+0"S
+0N
+0#4
+0">
+0y
+0"7
+0e
+0"1
+0"k
+0"V
+0I
+#21
+0Q
+b01 #j
+1#U
+1"t
+b01 #@
+0"W
+b01 }
+1"v
+1"n
+0#:
+0j
+1M
+0#Q
+1"S
+1#4
+1">
+1y
+1I
+1#M
+1#d
+0X
+1"4
+0w
+1\
+1#`
+1"E
+0#&
+1"y
+09
+1$
+1m
+0"{
+1P
+0;
+0"A
+0"$
+1"u
+1J
+0"o
+1#;
+1"=
+1N
+1#g
+0F
+1"7
+1e
+0z
+1]
+1H
+1"k
+1"V
+0#7
+1t
+0#c
+0#N
+0#F
+0"3
+0v
+b10 "|
+1#H
+b00000000000000000000000000000001 x
+0"a
+1!
+b01 "D
+18
+0#
+1"F
+1"1
+0#[
+0"]
+0#!
+0"@
+#26
+b00010 #"
+0#U
+0"t
+0J
+b0000000001 S
+b0000000001 ";
+0"n
+b00000000000000000000000000000001 #P
+0#;
+0"S
+0N
+0#4
+0">
+0y
+0"7
+0e
+b0000000001 #.
+0"k
+0"V
+b0000000001 #L
+0I
+b00001 A
+0#d
+b00000000000000000000000000000001 %
+0"4
+b00000000000000000000000000001101 "~
+0\
+0#`
+0!
+b00000000000000000000000000000001 #X
+0"1
+b00000000000000000000000000001101 "*
+b00000000000000000000000000001101 #)
+#31
+b0000000010 <
+1#U
+1"t
+b10 #@
+b00000000000000000000000000000001 #l
+b0000000010 6
+1"n
+1#:
+1j
+0M
+1"S
+1#4
+1">
+1y
+0^
+1I
+0#M
+b0000000010 ":
+1#d
+1X
+b0000000001 #G
+1"4
+b00000000000000000000000000000001 o
+b0000000010 "h
+0".
+1\
+1#`
+b00000000000000000000000000001101 T
+b00000000000000000000000000001101 "w
+0"E
+b00000000000000000000000000001101 V
+b00000000000000000000000000001101 #=
+0P
+b0000000010 3
+1"$
+b0000000001 #V
+1J
+b00000000000000000000000000001101 ~
+1#;
+b0000000001 /
+0"=
+1N
+b0000000001 #R
+b0000000010 #5
+1"7
+1e
+0]
+0H
+1"k
+1"V
+b00000000000000000000000000000001 |
+b0000000010 _
+0B
+b00000000000000000000000000001101 "e
+b01 "|
+b0000000010 )
+1!
+08
+1"1
+#36
+0#U
+0"t
+0#d
+0J
+0"4
+0"n
+0#;
+0\
+0#`
+0!
+0"S
+0N
+0#4
+0">
+0y
+0"7
+0e
+0"1
+0"k
+0"V
+0I
+#41
+1#U
+1"t
+b01 #@
+0"$
+1J
+1"n
+0#:
+0j
+1#;
+1M
+1"S
+1N
+1#4
+1">
+1y
+1"7
+1e
+1]
+1"k
+1"V
+1I
+1#d
+0X
+1"4
+b10 "|
+b00000000000000000000000000001101 x
+1\
+1#`
+1!
+1"E
+18
+1"1
+1P
+#46
+b00001 #"
+0#U
+0"t
+b00000000000000000000000000000001 "_
+0J
+b0000000011 S
+b0000000011 ";
+0"n
+b00000000000000000000000000000000 #P
+0#;
+0"S
+0N
+0#4
+0">
+0y
+0"7
+0e
+b0000000011 #.
+0"k
+0"V
+b0000000011 #L
+0I
+b00011 A
+0#d
+b00000000000000000000000000000000 %
+0"4
+b00000000000000000000000000001110 "~
+0\
+0#`
+0!
+b00000000000000000000000000000000 #X
+0"1
+b00000000000000000000000000000001 W
+b00000000000000000000000000000001 :
+b00000000000000000000000000001110 "*
+b00000000000000000000000000001110 #)
+#51
+b0000000001 3
+b0000000001 <
+1#U
+1"t
+b10 #@
+1"$
+b0000000011 #V
+1J
+b00000000000000000000000000001101 #l
+b00000000000000000000000000000001 #W
+b00000000000000000000000000001110 ~
+1"n
+1#:
+b0000000001 6
+1j
+1#;
+b0000000011 /
+0M
+1"S
+1N
+b0000000011 #R
+1#4
+1y
+1">
+b0000000001 #5
+1"7
+1e
+0]
+1"k
+1"V
+1I
+b00000000000000000000000000000000 |
+b0000000001 _
+b0000000001 ":
+b00000000000000000000000000001110 "e
+1#d
+1X
+b0000000011 #G
+1"4
+b01 "|
+b00000000000000000000000000001101 o
+b0000000001 "h
+b0000000001 )
+1\
+1#`
+b00000000000000000000000000001110 T
+1!
+b00000000000000000000000000001110 "w
+0"E
+08
+b00000000000000000000000000001110 V
+1"1
+b00000000000000000000000000001110 #=
+0P
+#56
+0#U
+0"t
+0#d
+0J
+0"4
+0"n
+0#;
+0\
+0#`
+0!
+0"S
+0N
+0#4
+0">
+0y
+0"7
+0e
+0"1
+0"k
+0"V
+0I
+#61
+1#U
+1"t
+b01 #@
+0"$
+1J
+1"n
+0#:
+0j
+1#;
+1M
+1"S
+1N
+1#4
+1">
+1y
+1"7
+1e
+1]
+1"k
+1"V
+1I
+1#d
+0X
+1"4
+b10 "|
+b00000000000000000000000000001110 x
+1\
+1#`
+1!
+1"E
+18
+1"1
+1P
+#66
+b00011 #"
+0#U
+0"t
+0#d
+0J
+0"4
+0"n
+0#;
+0\
+0#`
+0!
+0"S
+0N
+0#4
+0">
+0y
+0"7
+0e
+0"1
+0"k
+0"V
+0I
+#71
+b0000000011 3
+b0000000011 <
+1#U
+1"t
+b10 #@
+1"$
+1J
+b00000000000000000000000000001110 #l
+b0000000011 6
+1"n
+1#:
+1j
+1#;
+0M
+1"S
+1N
+1#4
+1">
+1y
+b0000000011 #5
+1"7
+1e
+0]
+1"k
+1"V
+1I
+b0000000011 _
+b0000000011 ":
+1#d
+1X
+1"4
+b01 "|
+b00000000000000000000000000001110 o
+b0000000011 "h
+b0000000011 )
+1\
+1#`
+1!
+0"E
+08
+1"1
+0P
+#76
+0#U
+0"t
+0#d
+0J
+0"4
+0"n
+0#;
+0\
+0#`
+0!
+0"S
+0N
+0#4
+0">
+0y
+0"7
+0e
+0"1
+0"k
+0"V
+0I
+#81
+1#U
+1"t
+b01 #@
+0"$
+1J
+1"n
+0#:
+0j
+1#;
+1M
+1"S
+1N
+1#4
+1">
+1y
+1"7
+1e
+1]
+1"k
+1"V
+1I
+1#d
+0X
+1"4
+b10 "|
+1\
+1#`
+1!
+1"E
+18
+1"1
+1P
+#86
+0#?
+b00000 #"
+0#U
+b00000000000000000000000000000000 "_
+0"t
+0J
+b0000000000 S
+b0000000000 ";
+0"n
+0#;
+0M
+0"S
+0N
+0#4
+0">
+0y
+0"!
+0G
+0"7
+0e
+b0000000000 #.
+0"k
+0"V
+b0000000000 #L
+0I
+0"l
+b00000 A
+0"m
+0#d
+0D
+0"4
+0"-
+b00000000000000000000000000000000 "~
+0\
+0#`
+0!
+1?
+0U
+0#<
+0"1
+0")
+b00000000000000000000000000000000 W
+0"z
+b00000000000000000000000000000000 :
+b00000000000000000000000000000000 "*
+0#>
+b00000000000000000000000000000000 #)
+#91
+b0000000000 <
+1#U
+1"t
+1h
+b00000000000000000000000000000000 #W
+b0000000000 6
+1"n
+1j
+1"S
+1#4
+1">
+1y
+0#h
+1I
+1#E
+b0000000000 ":
+1#d
+1.
+b0000000000 #G
+1"4
+0E
+b0000000000 "h
+0(
+1\
+1#`
+0?
+b00000000000000000000000000000000 "w
+0"E
+0"(
+b00000000000000000000000000000000 V
+0P
+0"s
+b0000000000 3
+b0000000000 #V
+1J
+1#;
+b0000000000 /
+1N
+b0000000000 #R
+1"T
+b0000000000 #5
+1"7
+1e
+1z
+0]
+1"k
+1"V
+b0000000000 _
+1-
+b00000000000000000000000000000000 "e
+1#1
+b01 "|
+1"J
+b0000000000 )
+1!
+0"x
+1"1
+#96
+0"S

@@ -1,0 +1,28 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Ins_Mem/Ins_Mem.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Ins_Mem|Ins_Mem>io_wData",
+    "sources":[
+      "~Ins_Mem|Ins_Mem>io_rAdder"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.annotations.LoadMemoryAnnotation",
+    "target":"Ins_Mem.Ins_Mem.ins_mem",
+    "fileName":"/home/hussainnaqvi/files/Ins_mem.txt",
+    "hexOrBinary":"h",
+    "originalMemoryNameOpt":"ins_mem"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Ins_Mem"
+  }
+]

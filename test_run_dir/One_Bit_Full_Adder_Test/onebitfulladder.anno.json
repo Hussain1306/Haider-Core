@@ -1,0 +1,32 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/One_Bit_Full_Adder_Test/onebitfulladder.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~onebitfulladder|onebitfulladder>io_e",
+    "sources":[
+      "~onebitfulladder|onebitfulladder>io_a",
+      "~onebitfulladder|onebitfulladder>io_b",
+      "~onebitfulladder|onebitfulladder>io_c"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~onebitfulladder|onebitfulladder>io_d",
+    "sources":[
+      "~onebitfulladder|onebitfulladder>io_c",
+      "~onebitfulladder|onebitfulladder>io_a",
+      "~onebitfulladder|onebitfulladder>io_b"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/One_Bit_Full_Adder_Test"
+  }
+]

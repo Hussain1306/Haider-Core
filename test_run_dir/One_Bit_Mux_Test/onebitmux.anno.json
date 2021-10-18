@@ -1,0 +1,23 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/One_Bit_Mux_Test/onebitmux.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~onebitmux|onebitmux>io_c",
+    "sources":[
+      "~onebitmux|onebitmux>io_a",
+      "~onebitmux|onebitmux>io_b",
+      "~onebitmux|onebitmux>io_s"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/One_Bit_Mux_Test"
+  }
+]

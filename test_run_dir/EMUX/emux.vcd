@@ -1,0 +1,48 @@
+$date
+2021-09-24T06:57+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module emux $end
+ $var wire 3 ! io_out $end
+ $var wire 1 " io_sel $end
+ $var wire 1 # clock $end
+ $var wire 3 $ io_in2 $end
+ $var wire 1 % reset $end
+ $var wire 3 & io_in1 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+0"
+b000 &
+0#
+b000 $
+b000 !
+$end
+#0
+1%
+#1
+1#
+#6
+b101 !
+0%
+1"
+b101 &
+0#
+#11
+1#
+#16
+b000 !
+0"
+b000 &
+0#
+#21
+1#
+#26
+0#

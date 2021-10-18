@@ -1,0 +1,76 @@
+$date
+2021-10-06T04:53+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module lab2ex3 $end
+ $var wire 2 ! _io_r_T_8 $end
+ $var wire 2 " io_r $end
+ $var wire 1 # _io_r_T_2 $end
+ $var wire 2 $ _io_r_T_5 $end
+ $var wire 2 % _io_r_T_4 $end
+ $var wire 2 & io_in0 $end
+ $var wire 2 ' _io_r_T_7 $end
+ $var wire 2 ( io_in3 $end
+ $var wire 1 ) _io_r_T_1 $end
+ $var wire 1 * _io_r_T $end
+ $var wire 1 + clock $end
+ $var wire 4 , io_s $end
+ $var wire 1 - _io_r_T_3 $end
+ $var wire 2 . _io_r_T_6 $end
+ $var wire 2 / io_in2 $end
+ $var wire 2 0 _io_r_T_9 $end
+ $var wire 1 1 reset $end
+ $var wire 2 2 io_in1 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b00 .
+b00 &
+b00 '
+0-
+b00 !
+b00 (
+b00 /
+b00 0
+b00 "
+01
+0)
+b00 2
+0#
+b00 $
+0*
+b0000 ,
+b00 %
+0+
+$end
+#0
+11
+#1
+1+
+#6
+1-
+01
+b11 &
+b10 2
+0+
+b01 /
+b1000 ,
+#11
+1+
+#16
+0-
+b00 &
+b00 2
+0+
+b00 /
+b0000 ,
+#21
+1+
+#26
+0+

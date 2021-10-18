@@ -1,0 +1,30 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/One_Bit_Half_Adder_Test/onebithalfadder.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~onebithalfadder|onebithalfadder>io_c",
+    "sources":[
+      "~onebithalfadder|onebithalfadder>io_a",
+      "~onebithalfadder|onebithalfadder>io_b"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~onebithalfadder|onebithalfadder>io_d",
+    "sources":[
+      "~onebithalfadder|onebithalfadder>io_a",
+      "~onebithalfadder|onebithalfadder>io_b"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/One_Bit_Half_Adder_Test"
+  }
+]

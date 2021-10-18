@@ -1,0 +1,34 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly example.lab4task2Test -- -DwriteVcd=1, Some(046b5ae5-7c1c-4a7b-a982-1d655d4bbac6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/hussainnaqvi/Scala-Chisel-Learning-Journey/target/scala-2.12/test-classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task2Test.scala:20:26: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Bool(), UInt()[0m
+[0m[[0m[33mwarn[0m] [0m[0m            val result = op match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mlab4task2Test:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Lab 4 Task 2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  chisel3.internal.ChiselException: Error: Not in a UserModule. Likely cause: Missed Module() wrap, bare chisel API call, or attempting to construct hardware inside a BlackBox.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.throwException$.apply(Error.scala:155)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.forcedUserModule(Builder.scala:494)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.internal.Builder$.pushOp(Builder.scala:558)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.Bits.$anonfun$do_apply$6(Bits.scala:168)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Option.getOrElse(Option.scala:189)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chisel3.Bits.do_apply(Bits.scala:166)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at example.lab4task2Test.$anonfun$new$4(lab4task2Test.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:158)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at example.lab4task2Test.$anonfun$new$3(lab4task2Test.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at example.lab4task2Test.$anonfun$new$3$adapted(lab4task2Test.scala:14)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 6 seconds, 47 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	example.lab4task2Test[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 10 s, completed Sep 23, 2021, 11:15:21 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

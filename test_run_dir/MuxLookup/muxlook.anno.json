@@ -1,0 +1,29 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/MuxLookup/muxlook.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~muxlook|muxlook>io_o",
+    "sources":[
+      "~muxlook|muxlook>io_i7",
+      "~muxlook|muxlook>io_s",
+      "~muxlook|muxlook>io_i6",
+      "~muxlook|muxlook>io_i5",
+      "~muxlook|muxlook>io_i4",
+      "~muxlook|muxlook>io_i3",
+      "~muxlook|muxlook>io_i2",
+      "~muxlook|muxlook>io_i1",
+      "~muxlook|muxlook>io_i0"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/MuxLookup"
+  }
+]

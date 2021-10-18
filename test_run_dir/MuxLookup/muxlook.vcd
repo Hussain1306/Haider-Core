@@ -1,0 +1,114 @@
+$date
+2021-09-20T11:16+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module muxlook $end
+ $var wire 1 ! _io_o_T_6 $end
+ $var wire 1 " _io_o_T_11 $end
+ $var wire 1 # io_o $end
+ $var wire 1 $ io_i7 $end
+ $var wire 1 % _io_o_T_5 $end
+ $var wire 1 & io_i1 $end
+ $var wire 1 ' _io_o_T_10 $end
+ $var wire 1 ( _io_o_T_8 $end
+ $var wire 1 ) io_i4 $end
+ $var wire 1 * _io_o_T_2 $end
+ $var wire 1 + io_i3 $end
+ $var wire 1 , io_i6 $end
+ $var wire 1 - clock $end
+ $var wire 1 . _io_o_T $end
+ $var wire 1 / _io_o_T_4 $end
+ $var wire 3 0 io_s $end
+ $var wire 1 1 io_i0 $end
+ $var wire 1 2 _io_o_T_7 $end
+ $var wire 1 3 _io_o_T_1 $end
+ $var wire 1 4 _io_o_T_12 $end
+ $var wire 1 5 reset $end
+ $var wire 1 6 _io_o_T_9 $end
+ $var wire 1 7 io_i2 $end
+ $var wire 1 8 io_i5 $end
+ $var wire 1 9 _io_o_T_3 $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+04
+0&
+05
+0-
+0'
+0.
+0/
+06
+0!
+0(
+07
+0"
+01
+0)
+08
+0#
+0*
+09
+0+
+02
+0,
+0$
+03
+b000 0
+$end
+#0
+15
+#1
+1-
+#6
+13
+0-
+1%
+1&
+05
+16
+1(
+17
+1)
+b101 0
+1"
+11
+18
+1#
+12
+19
+1$
+1+
+1,
+#11
+1-
+#16
+03
+0-
+0%
+0&
+06
+0(
+07
+0)
+b000 0
+0"
+01
+08
+0#
+02
+09
+0$
+0+
+0,
+#21
+1-
+#26
+0-

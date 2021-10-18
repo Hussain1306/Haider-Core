@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly RISC_V.Control_typeTest -- -DwriteVcd=1, Some(ef2adcc6-002a-4fb6-84fc-340d6eb4495a), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/hussainnaqvi/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Control_type.scala:13:6: not found: value input[0m
+[0m[[0m[31merror[0m] [0m[0m    (input === "b?0000011".U) -> io.i[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Control_type.scala:16:6: not found: value input[0m
+[0m[[0m[31merror[0m] [0m[0m    (input === "b?0000011") -> io.i[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Control_type.scala:19:6: not found: value input[0m
+[0m[[0m[31merror[0m] [0m[0m    (input === "b?1101111") -> io.i[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Control_type.scala:22:6: not found: value input[0m
+[0m[[0m[31merror[0m] [0m[0m    (input === "b?0110111") -> io.i[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Control_type.scala:25:6: not found: value input[0m
+[0m[[0m[31merror[0m] [0m[0m    (input === "b?1100111") -> io.i[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Control_type.scala:28:6: not found: value input[0m
+[0m[[0m[31merror[0m] [0m[0m    (input === "b?1100011") -> io.i[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Control_type.scala:31:6: not found: value input[0m
+[0m[[0m[31merror[0m] [0m[0m    (input === "b?0010111") -> io.i[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Control_type.scala:34:6: not found: value input[0m
+[0m[[0m[31merror[0m] [0m[0m    (input === "b?0100011") -> io.i[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Control_type.scala:37:6: not found: value input[0m
+[0m[[0m[31merror[0m] [0m[0m    (input === "b?0010011") -> io.i[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Control_type.scala:40:6: not found: value input[0m
+[0m[[0m[31merror[0m] [0m[0m    (input === "b?0110011") -> io.i[0m
+[0m[[0m[31merror[0m] [0m[0m     ^[0m
+[0m[[0m[31merror[0m] [0m[0m10 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 7 s, completed Oct 5, 2021, 12:39:42 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

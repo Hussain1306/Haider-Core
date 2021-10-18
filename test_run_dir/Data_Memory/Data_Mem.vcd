@@ -1,0 +1,144 @@
+$date
+2021-10-18T08:30+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Data_Mem $end
+ $var wire 32 " io_data_in $end
+ $var wire 32 $ io_data_out $end
+ $var wire 12 ' io_addr $end
+ $var wire 32 ) data_Mem $end
+ $var wire 1 , clock $end
+ $var wire 1 / io_load $end
+ $var wire 1 2 io_store $end
+ $var wire 1 6 reset $end
+  $scope module data_Mem $end
+   $var wire 32 4 MPORT $end
+    $scope module MPORT $end
+     $var wire 1 ! en $end
+     $var wire 32 # pipeline_data_0 $end
+     $var wire 1 % pipeline_valid_0 $end
+     $var wire 1 & mask $end
+     $var wire 1 ( clk $end
+     $var wire 1 + valid $end
+     $var wire 10 - addr $end
+     $var wire 10 1 pipeline_addr_0 $end
+     $var wire 32 5 data $end
+    $upscope $end
+    $scope module io_data_out_MPORT $end
+     $var wire 10 * addr $end
+     $var wire 1 . en $end
+     $var wire 1 0 clk $end
+     $var wire 32 3 data $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0%
+b00000000000000000000000000000000 5
+b000000000000 '
+b0000000000 -
+0.
+0/
+06
+1&
+0!
+00
+b00000000000000000000000000000000 "
+b00000000000000000000000000000000 )
+0(
+b00000000000000000000000000000000 #
+b0000000000 *
+0+
+b0000000000 1
+b00000000000000000000000000000000 $
+b00000000000000000000000000000000 3
+02
+0,
+b00000000000000000000000000000000 4
+$end
+#0
+16
+#1
+10
+1(
+1,
+#6
+1!
+00
+b0000001111 -
+b00000000000000000000000000111001 "
+b00000000000000000000000000111001 5
+12
+b0000001111 *
+b000000001111 '
+06
+1+
+0(
+0,
+#11
+b00000000000000000000000000111001 3
+10
+1%
+b0000001111 1
+b00000000000000000000000000111001 #
+1(
+1,
+#16
+00
+0(
+0,
+#21
+10
+1(
+1,
+#26
+0!
+00
+1.
+02
+b00000000000000000000000000111001 $
+0+
+0(
+1/
+0,
+#31
+10
+0%
+1(
+1,
+#36
+00
+0(
+0,
+#41
+10
+1(
+1,
+#46
+b00000000000000000000000000000000 3
+00
+b0000000000 -
+b00000000000000000000000000000000 "
+0.
+b00000000000000000000000000000000 5
+b0000000000 *
+b000000000000 '
+b00000000000000000000000000000000 $
+0(
+0/
+0,
+#51
+10
+b0000000000 1
+b00000000000000000000000000000000 #
+1(
+1,
+#56
+0,

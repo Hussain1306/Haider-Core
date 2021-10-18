@@ -1,0 +1,23 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/emux_test/lab5ex2.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~lab5ex2|lab5ex2>io_o",
+    "sources":[
+      "~lab5ex2|lab5ex2>io_s",
+      "~lab5ex2|lab5ex2>io_i2",
+      "~lab5ex2|lab5ex2>io_i1"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/emux_test"
+  }
+]

@@ -1,0 +1,128 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly RISC_V.Alu_ControlTest -- -DwriteVcd=1, Some(c90dd67e-30af-494d-a664-91ee54537c7a), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/hussainnaqvi/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:8:14: inferred type arguments [Int] do not conform to method apply's type parameter bounds [T <: chisel3.Data][0m
+[0m[[0m[31merror[0m] [0m[0m	val ALUop = Input(twdith)[0m
+[0m[[0m[31merror[0m] [0m[0m	            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:8:20: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m	val ALUop = Input(twdith)[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:10:14: inferred type arguments [Int] do not conform to method apply's type parameter bounds [T <: chisel3.Data][0m
+[0m[[0m[31merror[0m] [0m[0m	val func3 = Input(twdith)[0m
+[0m[[0m[31merror[0m] [0m[0m	            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:10:20: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m	val func3 = Input(twdith)[0m
+[0m[[0m[31merror[0m] [0m[0m	                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:11:16: inferred type arguments [Int] do not conform to method apply's type parameter bounds [T <: chisel3.Data][0m
+[0m[[0m[31merror[0m] [0m[0m	val ALUcont = Output(fwidth)[0m
+[0m[[0m[31merror[0m] [0m[0m	              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:11:23: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m	val ALUcont = Output(fwidth)[0m
+[0m[[0m[31merror[0m] [0m[0m	                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:15:38: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = IO(new ALU_IO(tUint : Int, fUint : UInt ) )[0m
+[0m[[0m[31merror[0m] [0m[0m	                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:15:44: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m	val io = IO(new ALU_IO(tUint : Int, fUint : UInt ) )[0m
+[0m[[0m[31merror[0m] [0m[0m	                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:16:17: value === is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m		when(io.ALUop === "b000".U){		                      //r[0m
+[0m[[0m[31merror[0m] [0m[0m		              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:17:18: inferred type arguments [chisel3.Data] do not conform to method apply's type parameter bounds [T <: chisel3.Bits][0m
+[0m[[0m[31merror[0m] [0m[0m			io.ALUcont := Cat(0.U , io.func7 , io.func3)[0m
+[0m[[0m[31merror[0m] [0m[0m			              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:17:24: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m			io.ALUcont := Cat(0.U , io.func7 , io.func3)[0m
+[0m[[0m[31merror[0m] [0m[0m			                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:17:31: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m			io.ALUcont := Cat(0.U , io.func7 , io.func3)[0m
+[0m[[0m[31merror[0m] [0m[0m			                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:17:42: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : T(in method apply)[0m
+[0m[[0m[31merror[0m] [0m[0m required: T(in method apply)[0m
+[0m[[0m[31merror[0m] [0m[0m			io.ALUcont := Cat(0.U , io.func7 , io.func3)[0m
+[0m[[0m[31merror[0m] [0m[0m			                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:18:23: value === is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m		}.elsewhen(io.ALUop === "b001".U){[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:19:18: value === is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m			when(io.func3 === "b101".U){[0m
+[0m[[0m[31merror[0m] [0m[0m			              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:20:19: inferred type arguments [chisel3.Data] do not conform to method apply's type parameter bounds [T <: chisel3.Bits][0m
+[0m[[0m[31merror[0m] [0m[0m				io.ALUcont := Cat(0.U , io.func7 , io.func3)[0m
+[0m[[0m[31merror[0m] [0m[0m				              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:20:25: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m				io.ALUcont := Cat(0.U , io.func7 , io.func3)[0m
+[0m[[0m[31merror[0m] [0m[0m				                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:20:32: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m				io.ALUcont := Cat(0.U , io.func7 , io.func3)[0m
+[0m[[0m[31merror[0m] [0m[0m				                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:20:43: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : T(in method apply)[0m
+[0m[[0m[31merror[0m] [0m[0m required: T(in method apply)[0m
+[0m[[0m[31merror[0m] [0m[0m				io.ALUcont := Cat(0.U , io.func7 , io.func3)[0m
+[0m[[0m[31merror[0m] [0m[0m				                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:22:19: inferred type arguments [chisel3.Data] do not conform to method apply's type parameter bounds [T <: chisel3.Bits][0m
+[0m[[0m[31merror[0m] [0m[0m				io.ALUcont := Cat("b00".U , io.func3)    [0m
+[0m[[0m[31merror[0m] [0m[0m				              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:22:29: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m				io.ALUcont := Cat("b00".U , io.func3)    [0m
+[0m[[0m[31merror[0m] [0m[0m				                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:22:36: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : T(in method apply)[0m
+[0m[[0m[31merror[0m] [0m[0m required: T(in method apply)[0m
+[0m[[0m[31merror[0m] [0m[0m				io.ALUcont := Cat("b00".U , io.func3)    [0m
+[0m[[0m[31merror[0m] [0m[0m				                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:24:23: value === is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m		}.elsewhen(io.ALUop === "b101".U){                       //store[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:26:23: value === is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m		}.elsewhen(io.ALUop === "b100".U){                       //load[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:28:23: value === is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m		}.elsewhen(io.ALUop === "b010".U){[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:29:18: inferred type arguments [chisel3.Data] do not conform to method apply's type parameter bounds [T <: chisel3.Bits][0m
+[0m[[0m[31merror[0m] [0m[0m			io.ALUcont := Cat("b10".U , io.func3) 		        //branch[0m
+[0m[[0m[31merror[0m] [0m[0m			              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:29:28: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: T[0m
+[0m[[0m[31merror[0m] [0m[0m			io.ALUcont := Cat("b10".U , io.func3) 		        //branch[0m
+[0m[[0m[31merror[0m] [0m[0m			                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:29:35: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : T(in method apply)[0m
+[0m[[0m[31merror[0m] [0m[0m required: T(in method apply)[0m
+[0m[[0m[31merror[0m] [0m[0m			io.ALUcont := Cat("b10".U , io.func3) 		        //branch[0m
+[0m[[0m[31merror[0m] [0m[0m			                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:30:23: value === is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m		}.elsewhen(io.ALUop === "b110".U){                       //lui[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:32:23: value === is not a member of type parameter T[0m
+[0m[[0m[31merror[0m] [0m[0m		}.elsewhen(io.ALUop === "b011".U){                      //jalr[0m
+[0m[[0m[31merror[0m] [0m[0m		                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m30 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Oct 9, 2021, 3:18:50 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,206 @@
+$date
+2021-10-17T21:15+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Control_control_decode $end
+ $var wire 1 ! io_RegWrite $end
+ $var wire 1 " _GEN_37 $end
+ $var wire 2 # _GEN_22 $end
+ $var wire 2 $ _GEN_16 $end
+ $var wire 1 % _GEN_43 $end
+ $var wire 2 & _GEN_2 $end
+ $var wire 1 ' _GEN_10 $end
+ $var wire 2 ( _GEN_31 $end
+ $var wire 1 ) io_branch $end
+ $var wire 2 * _GEN_19 $end
+ $var wire 1 + io_S_type $end
+ $var wire 1 , _GEN_13 $end
+ $var wire 2 - _GEN_57 $end
+ $var wire 3 . _GEN_8 $end
+ $var wire 1 / _GEN_51 $end
+ $var wire 1 0 io_I_type $end
+ $var wire 2 1 _GEN_39 $end
+ $var wire 1 2 _GEN_24 $end
+ $var wire 2 3 _GEN_30 $end
+ $var wire 2 4 _GEN_45 $end
+ $var wire 1 5 io_MemtoReg $end
+ $var wire 2 6 io_operand_A_sel $end
+ $var wire 2 7 io_extend_sel $end
+ $var wire 2 8 _GEN_27 $end
+ $var wire 2 9 _GEN_48 $end
+ $var wire 1 : io_JALR $end
+ $var wire 2 ; _GEN_54 $end
+ $var wire 2 < _GEN_12 $end
+ $var wire 2 = _GEN_15 $end
+ $var wire 2 > _GEN_36 $end
+ $var wire 3 ? _GEN_21 $end
+ $var wire 1 @ io_MemWrite $end
+ $var wire 1 A _GEN_4 $end
+ $var wire 1 B _GEN_53 $end
+ $var wire 3 C _GEN_56 $end
+ $var wire 1 D io_operand_B_sel $end
+ $var wire 1 E _GEN_41 $end
+ $var wire 1 F clock $end
+ $var wire 1 G _GEN_35 $end
+ $var wire 1 H _GEN_50 $end
+ $var wire 2 I _GEN_23 $end
+ $var wire 1 J _GEN_44 $end
+ $var wire 3 K _GEN_38 $end
+ $var wire 3 L io_ALUoperation $end
+ $var wire 1 M _GEN_17 $end
+ $var wire 1 N _GEN_32 $end
+ $var wire 3 O _GEN_47 $end
+ $var wire 1 P _GEN_20 $end
+ $var wire 3 Q _GEN_29 $end
+ $var wire 2 R _GEN_6 $end
+ $var wire 3 S _GEN_14 $end
+ $var wire 2 T io_Next_pc $end
+ $var wire 2 U _GEN_9 $end
+ $var wire 2 V _GEN_58 $end
+ $var wire 1 W io_Load $end
+ $var wire 1 X _GEN_52 $end
+ $var wire 1 Y reset $end
+ $var wire 3 Z _GEN_3 $end
+ $var wire 1 [ _GEN_46 $end
+ $var wire 1 \ io_SB_type $end
+ $var wire 1 ] io_JAL $end
+ $var wire 1 ^ io_AUIPC $end
+ $var wire 1 _ _GEN_28 $end
+ $var wire 1 ` io_LUI $end
+ $var wire 2 a _GEN_49 $end
+ $var wire 2 b _GEN_40 $end
+ $var wire 1 c _GEN_55 $end
+ $var wire 1 d io_R_type $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0X
+b00 a
+b00 >
+b00 U
+0"
+b000 C
+b000 .
+b00 #
+0N
+b000 Z
+0P
+b00 <
+b000 ?
+b00 4
+0J
+05
+b00 6
+b00 b
+0D
+0/
+b00 8
+0c
+0[
+0F
+0)
+0]
+0H
+b00 I
+0+
+b000 L
+0@
+0_
+0W
+0B
+0%
+b00 &
+0Y
+0'
+b00 =
+b00 (
+b00 T
+b00 *
+0!
+0M
+b00 V
+b00 9
+b00 $
+0d
+0:
+02
+b00 ;
+b00 R
+0`
+b00 7
+b000 O
+0E
+00
+b000 Q
+b00 1
+0\
+0G
+b000 S
+b00 3
+b000 K
+0^
+0A
+0,
+b00 -
+$end
+#0
+1Y
+#1
+1F
+#6
+1B
+b001 Q
+b001 C
+1J
+0Y
+15
+1D
+b001 K
+1E
+b001 L
+1[
+1!
+10
+1c
+1N
+0F
+1"
+1G
+12
+1H
+b001 O
+1_
+#11
+1F
+#16
+0B
+b000 Q
+b000 C
+0J
+05
+0D
+b000 K
+0E
+b000 L
+0[
+0!
+00
+0c
+0N
+0F
+0"
+0G
+02
+0H
+b000 O
+0_
+#21
+1F
+#26
+0F

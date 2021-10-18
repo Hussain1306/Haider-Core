@@ -1,0 +1,23 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/ALU_CONTROL/Alu_Control.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Alu_Control|Alu_Control>io_ALUcont",
+    "sources":[
+      "~Alu_Control|Alu_Control>io_ALUop",
+      "~Alu_Control|Alu_Control>io_func7",
+      "~Alu_Control|Alu_Control>io_func3"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/ALU_CONTROL"
+  }
+]

@@ -1,0 +1,69 @@
+$date
+2021-09-29T09:55+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module lab6ex1 $end
+ $var wire 4 ! io_out $end
+ $var wire 4 " state $end
+ $var wire 1 # clock $end
+ $var wire 1 $ io_reload $end
+ $var wire 5 % nextState $end
+ $var wire 5 & _GEN_0 $end
+ $var wire 4 ' io_in $end
+ $var wire 1 ( reset $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b0000 '
+0#
+b00000 %
+b0000 !
+b00000 &
+b0000 "
+0$
+0(
+$end
+#0
+1(
+#1
+b00010 %
+b0001 "
+b00001 &
+1#
+#6
+b0001 !
+b00010 &
+0#
+b0011 '
+1$
+0(
+#11
+b0010 !
+b00100 %
+b0010 "
+b00100 &
+1#
+#16
+0#
+#21
+b0100 !
+b01000 %
+b0100 "
+b01000 &
+1#
+#26
+b0000 !
+b00100 &
+0#
+b0000 '
+0$
+#31
+1#
+#36
+0#

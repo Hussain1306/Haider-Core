@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly RISC_V.ALUTest -- -DwriteVcd=1, Some(d0945608-2198-477f-90b7-cde5e396610e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/hussainnaqvi/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/ALU.scala:35:38: overloaded method value apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: BigInt,y: BigInt)chisel3.UInt <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int,y: Int)chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m        io.alu_out := io.arg_x << io.arg_y(index-1.U,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/ALU.scala:38:38: overloaded method value apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: BigInt,y: BigInt)chisel3.UInt <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int,y: Int)chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m        io.alu_out := io.arg_x >> io.arg_y(index-1.U,0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/ALU.scala:41:47: overloaded method value apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: BigInt,y: BigInt)chisel3.UInt <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int,y: Int)chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (chisel3.UInt, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m        io.alu_out := ( io.arg_x.asSInt << io.arg_y(index-1.U , 0)).asUInt[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Oct 13, 2021, 12:53:42 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,40 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly RISC_V.TOPTest -- -DwriteVcd=1, Some(0d2a1754-3b46-4f67-bc90-35e50da1e089), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/hussainnaqvi/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTOPTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- TOP *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.transforms.CheckCombLoops$CombLoopException: : [module Top] Combinational loop detected:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.io_opcode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.typ_dec.io_opcode	 @[Control.scala 30:35][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.typ_dec._T	 @[Control_type_decode.scala 23:20][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.typ_dec._GEN_43	 @[Control_type_decode.scala 23:37 Control_type_decode.scala 24:19][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.typ_dec.io_R_type	[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.con_dec.io_R_type	 @[Control.scala 33:35][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.con_dec._T	 @[Control_control_decode.scala 34:32][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.con_dec._GEN_65	 @[Control_control_decode.scala 34:40 Control_control_decode.scala 44:36][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.con_dec.io_Next_pc	[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.io_Next_pc	 @[Control.scala 52:28][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop._T_5	 @[TOP.scala 74:29][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop._GEN_5	 @[TOP.scala 74:41 TOP.scala 75:21][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.pc.io_input	[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.pc.io_pc	 @[PC.scala 17:15][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop._ins_mem_io_rAdder_T	 @[TOP.scala 26:34][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.ins_mem.io_rAdder	 @[TOP.scala 26:23][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.ins_mem._io_wData_T	 @[Ins_Mem.scala 17:28][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.ins_mem.ins_mem.io_wData_MPORT.addr	 @[Ins_Mem.scala 17:28][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.ins_mem.ins_mem.io_wData_MPORT.data	 @[Ins_Mem.scala 16:26][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.ins_mem.io_wData	 @[Ins_Mem.scala 17:18][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop._control_io_opcode_T	 @[TOP.scala 30:33][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mTop.control.io_opcode	 @[TOP.scala 30:23][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 8 seconds, 176 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	RISC_V.TOPTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 12 s, completed Oct 14, 2021, 6:21:04 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

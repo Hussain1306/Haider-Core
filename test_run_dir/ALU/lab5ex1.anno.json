@@ -1,0 +1,23 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/ALU/lab5ex1.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~lab5ex1|lab5ex1>io_alu_out",
+    "sources":[
+      "~lab5ex1|lab5ex1>io_alu_op",
+      "~lab5ex1|lab5ex1>io_arg_x",
+      "~lab5ex1|lab5ex1>io_arg_y"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/ALU"
+  }
+]

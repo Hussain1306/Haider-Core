@@ -1,0 +1,322 @@
+$date
+2021-10-18T06:13+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Control $end
+ $var wire 1 $ io_RegWrite $end
+ $var wire 1 + io_branch $end
+ $var wire 7 . io_opcode $end
+ $var wire 1 A io_MemtoReg $end
+ $var wire 2 C io_operand_A_sel $end
+ $var wire 2 E io_extend_sel $end
+ $var wire 1 W io_MemWrite $end
+ $var wire 1 d io_operand_B_sel $end
+ $var wire 1 g clock $end
+ $var wire 3 t io_ALUoperation $end
+ $var wire 1 w con_dec $end
+ $var wire 2 "$ io_Next_pc $end
+ $var wire 1 "* reset $end
+ $var wire 1 "2 typ_dec $end
+  $scope module typ_dec $end
+   $var wire 1 ! _GEN_23 $end
+   $var wire 7 " io_opcode $end
+   $var wire 1 # _GEN_6 $end
+   $var wire 1 % _GEN_17 $end
+   $var wire 1 0 io_I_type $end
+   $var wire 1 3 _GEN_40 $end
+   $var wire 1 6 io_LUI $end
+   $var wire 1 9 _GEN_22 $end
+   $var wire 1 : _GEN_43 $end
+   $var wire 1 < io_JAL $end
+   $var wire 1 = _GEN_19 $end
+   $var wire 1 > _GEN_10 $end
+   $var wire 1 D _GEN_31 $end
+   $var wire 1 F io_Load $end
+   $var wire 1 G _GEN_25 $end
+   $var wire 1 J _GEN_34 $end
+   $var wire 1 K _GEN_28 $end
+   $var wire 1 N _GEN_13 $end
+   $var wire 1 R io_SB_type $end
+   $var wire 1 U io_AUIPC $end
+   $var wire 1 Z io_JALR $end
+   $var wire 1 ] _GEN_33 $end
+   $var wire 1 b _GEN_21 $end
+   $var wire 1 c _GEN_15 $end
+   $var wire 1 i _GEN_36 $end
+   $var wire 1 j _GEN_42 $end
+   $var wire 1 m _GEN_39 $end
+   $var wire 1 p _GEN_24 $end
+   $var wire 1 r _GEN_7 $end
+   $var wire 1 s io_R_type $end
+   $var wire 1 u _GEN_18 $end
+   $var wire 1 y _GEN_12 $end
+   $var wire 1 } _T $end
+   $var wire 1 ~ io_S_type $end
+   $var wire 1 "" _GEN_38 $end
+   $var wire 1 ", _GEN_32 $end
+   $var wire 1 "1 _GEN_3 $end
+   $var wire 1 "3 _GEN_29 $end
+   $var wire 1 "5 _GEN_41 $end
+  $upscope $end
+  $scope module con_dec $end
+   $var wire 3 & _GEN_52 $end
+   $var wire 1 ' io_MemWrite $end
+   $var wire 1 ( io_SB_type $end
+   $var wire 1 ) _GEN_46 $end
+   $var wire 1 * io_Load $end
+   $var wire 1 , io_AUIPC $end
+   $var wire 1 - _GEN_28 $end
+   $var wire 1 / _GEN_49 $end
+   $var wire 1 1 _GEN_40 $end
+   $var wire 3 2 _GEN_34 $end
+   $var wire 2 4 io_Next_pc $end
+   $var wire 1 5 _GEN_4 $end
+   $var wire 1 7 _GEN_37 $end
+   $var wire 1 8 io_R_type $end
+   $var wire 3 ; _GEN_43 $end
+   $var wire 1 ? _GEN_31 $end
+   $var wire 3 @ _GEN_7 $end
+   $var wire 2 B io_extend_sel $end
+   $var wire 3 H _GEN_25 $end
+   $var wire 2 I _GEN_19 $end
+   $var wire 2 L _GEN_13 $end
+   $var wire 1 M io_branch $end
+   $var wire 3 O io_ALUoperation $end
+   $var wire 1 P io_S_type $end
+   $var wire 2 Q io_operand_A_sel $end
+   $var wire 1 S _GEN_51 $end
+   $var wire 1 T _GEN_39 $end
+   $var wire 2 V _GEN_45 $end
+   $var wire 1 X io_I_type $end
+   $var wire 1 Y io_JALR $end
+   $var wire 1 [ _GEN_48 $end
+   $var wire 1 \ _GEN_33 $end
+   $var wire 2 ^ _GEN_54 $end
+   $var wire 2 _ _GEN_27 $end
+   $var wire 3 ` _GEN_12 $end
+   $var wire 1 a _GEN_9 $end
+   $var wire 2 e _GEN_36 $end
+   $var wire 3 f _GEN_3 $end
+   $var wire 1 h _GEN_42 $end
+   $var wire 1 k _GEN_15 $end
+   $var wire 1 l _GEN_21 $end
+   $var wire 2 n _GEN_24 $end
+   $var wire 1 o io_JAL $end
+   $var wire 3 q _GEN_18 $end
+   $var wire 2 v _GEN_6 $end
+   $var wire 1 x io_operand_B_sel $end
+   $var wire 2 z _GEN_53 $end
+   $var wire 2 { _GEN_41 $end
+   $var wire 2 | _GEN_35 $end
+   $var wire 2 "! _GEN_44 $end
+   $var wire 1 "# io_LUI $end
+   $var wire 2 "% _GEN_50 $end
+   $var wire 1 "& io_RegWrite $end
+   $var wire 2 "' _GEN_17 $end
+   $var wire 1 "( io_MemtoReg $end
+   $var wire 2 ") _GEN_8 $end
+   $var wire 2 "+ _GEN_32 $end
+   $var wire 1 "- _GEN_47 $end
+   $var wire 2 ". _GEN_11 $end
+   $var wire 2 "/ _GEN_26 $end
+   $var wire 2 "0 _GEN_20 $end
+   $var wire 2 "4 _GEN_2 $end
+   $var wire 2 "6 _GEN_14 $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b00 v
+0X
+0""
+b00 ".
+0o
+0R
+0=
+0"1
+b000 `
+0m
+b000 q
+0g
+05
+0~
+0a
+0D
+0/
+0"#
+b0000000 "
+0x
+0[
+0F
+0)
+b00 {
+0]
+0r
+b00 ^
+b00 I
+0+
+0W
+b00 C
+0%
+b00 "/
+b000 H
+0p
+b000 t
+0"2
+0>
+06
+0!
+b00 "+
+0l
+0:
+b00 "%
+0"(
+0"*
+b00 L
+b00 "!
+b000 O
+0w
+0b
+00
+0(
+0?
+b00 |
+b00 "4
+0u
+b00 "6
+b000 2
+b0000000 .
+0Z
+b00 "0
+0i
+0T
+0"3
+07
+b000 &
+0k
+0N
+09
+0"-
+b00 "$
+b00 n
+0P
+b00 Q
+03
+b00 4
+0J
+0-
+b000 ;
+0c
+01
+0Y
+0<
+0'
+b00 E
+0S
+b00 ")
+0j
+0U
+0M
+b00 V
+0",
+0#
+08
+0d
+b00 "'
+b000 @
+0}
+0h
+0K
+b000 f
+0y
+b00 z
+0\
+0G
+b00 e
+0"&
+0*
+0s
+b00 _
+0A
+0,
+0"5
+b00 B
+0$
+$end
+#0
+1"*
+#1
+1g
+#6
+0g
+1h
+1S
+1"&
+17
+1/
+10
+11
+1d
+b001 2
+b001 H
+1A
+b001 t
+1-
+1X
+b0010011 .
+b001 &
+1x
+1)
+1\
+1?
+b0010011 "
+1"(
+1l
+1$
+b001 O
+0"*
+b001 ;
+#11
+1g
+#16
+0g
+#21
+1g
+#26
+0-
+0X
+0g
+b0000000 .
+b000 &
+0h
+0S
+0"&
+0x
+07
+0/
+0)
+0\
+00
+0?
+b0000000 "
+01
+0d
+0"(
+b000 2
+b000 H
+0l
+0$
+b000 O
+0A
+b000 t
+b000 ;
+#31
+1g
+#36
+0g

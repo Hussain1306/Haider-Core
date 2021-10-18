@@ -1,0 +1,24 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/8_to_1_Mux/lab3_2exp.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~lab3_2exp|lab3_2exp>io_result",
+    "sources":[
+      "~lab3_2exp|lab3_2exp>io_s2",
+      "~lab3_2exp|lab3_2exp>io_s1",
+      "~lab3_2exp|lab3_2exp>io_s0",
+      "~lab3_2exp|lab3_2exp>io_a"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/8_to_1_Mux"
+  }
+]

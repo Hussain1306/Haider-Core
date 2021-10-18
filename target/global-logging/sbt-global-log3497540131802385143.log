@@ -1,0 +1,46 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly example.lab4task1Test -- -DwriteVcd=1, Some(bd5c0f8a-6f36-403b-b199-aabfac5f95cd), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/hussainnaqvi/Scala-Chisel-Learning-Journey/target/scala-2.12/test-classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:14:30: example.funct3.type does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m        val array_op = funct3(BEQ, BNE, BGE, BLT, BGEU, BLTU)[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:17:21: not found: value Random[0m
+[0m[[0m[31merror[0m] [0m[0m            val a = Random.nextLong() & 0xFFFFFFFFL[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:18:21: not found: value Random[0m
+[0m[[0m[31merror[0m] [0m[0m            val b = Random.nextLong() & 0xFFFFFFFFL[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:19:30: not found: value Random[0m
+[0m[[0m[31merror[0m] [0m[0m            val branch_pin = Random.nextBoolean() [0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:20:23: not found: value Random[0m
+[0m[[0m[31merror[0m] [0m[0m            val opr = Random.nextInt(6)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:25:18: not found: value BEQ[0m
+[0m[[0m[31merror[0m] [0m[0m            case BEQ => (a == b)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:26:18: not found: value BNE[0m
+[0m[[0m[31merror[0m] [0m[0m            case BNE => (a != b)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:27:18: not found: value BGE[0m
+[0m[[0m[31merror[0m] [0m[0m            case BGE => (a >= b)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:28:18: not found: value BLT[0m
+[0m[[0m[31merror[0m] [0m[0m            case BLT => (a < b)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:29:18: not found: value BGEU[0m
+[0m[[0m[31merror[0m] [0m[0m            case BGEU => (a >= b)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:30:18: not found: value BLTU[0m
+[0m[[0m[31merror[0m] [0m[0m            case BLTU => (a < b)[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/test/scala/example/lab4task1Test.scala:38:25: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : example.funct3.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m        c.io.func3.poke(funct3)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m12 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Sep 23, 2021, 3:56:27 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

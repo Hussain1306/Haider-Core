@@ -1,0 +1,59 @@
+$date
+2021-10-13T06:05+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module Ins_Mem $end
+ $var wire 32 % io_wData $end
+ $var wire 1 & clock $end
+ $var wire 32 ' ins_mem $end
+ $var wire 12 ( io_rAdder $end
+ $var wire 1 ) reset $end
+  $scope module ins_mem $end
+    $scope module io_wData_MPORT $end
+     $var wire 1 ! clk $end
+     $var wire 10 " addr $end
+     $var wire 1 # en $end
+     $var wire 32 $ data $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b00000000000000000000000000001000 '
+0)
+0&
+b0000000000 "
+b00000000000000000000000000000000 $
+b00000000000000000000000000000000 %
+0!
+1#
+b000000000000 (
+$end
+#0
+b00000000000000000000000000001000 %
+b00000000000000000000000000001000 $
+1)
+#1
+1!
+1&
+#6
+0!
+0&
+0)
+#11
+1!
+1&
+#16
+0!
+0&
+#21
+1!
+1&
+#26
+0&

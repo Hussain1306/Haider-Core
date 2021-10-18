@@ -1,0 +1,44 @@
+$date
+2021-09-26T17:21+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module lab5ex2 $end
+ $var wire 2 ! io_o $end
+ $var wire 2 " io_i1 $end
+ $var wire 1 # clock $end
+ $var wire 1 $ io_s $end
+ $var wire 2 % io_i2 $end
+ $var wire 1 & reset $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+0&
+0#
+b00 !
+b00 %
+0$
+b00 "
+$end
+#0
+1&
+#1
+1#
+#6
+b01 %
+0&
+0#
+#11
+1#
+#16
+b00 %
+0#
+#21
+1#
+#26
+0#

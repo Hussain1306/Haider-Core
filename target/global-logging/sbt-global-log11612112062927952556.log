@@ -1,0 +1,47 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly example.lab3ex2Test -- -DwriteVcd=1, Some(276aa10c-7c1f-4a22-a727-a2eb90998327), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/hussainnaqvi/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:51:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := sum[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:54:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := sum[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:57:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := cmp[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:60:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := cmp[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:63:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := shiftr[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:66:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := shiftr[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:69:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := shiftl[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:72:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := io.in_A & io.in_B[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:75:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := io.in_A | io.in_B[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:78:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := io.in_A ^ io.in_B[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:81:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := io.in_A[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:84:13: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m            out := io.in_B[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/example/lab3ex2.scala:88:15: not found: value out[0m
+[0m[[0m[31merror[0m] [0m[0m    io.out := out[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m13 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 6 s, completed Sep 22, 2021, 10:17:35 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

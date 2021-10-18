@@ -1,0 +1,107 @@
+$date
+2021-09-29T17:52+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module lab7task2 $end
+ $var wire 8 ! io_out $end
+ $var wire 1 " _T $end
+ $var wire 8 # _GEN_5 $end
+ $var wire 9 $ _GEN_8 $end
+ $var wire 9 % _GEN_12 $end
+ $var wire 8 & state $end
+ $var wire 9 ' nextState_1 $end
+ $var wire 1 ( io_start $end
+ $var wire 8 ) _GEN_1 $end
+ $var wire 9 * _GEN_4 $end
+ $var wire 1 + clock $end
+ $var wire 1 , io_flag $end
+ $var wire 9 - nextState $end
+ $var wire 9 . _GEN_0 $end
+ $var wire 8 / _GEN_9 $end
+ $var wire 1 0 io_in $end
+ $var wire 1 1 reset $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b000000000 *
+b00000000 /
+b00000000 )
+b00000000 !
+b000000000 $
+b000000000 -
+b000000000 %
+b00000000 #
+00
+0(
+0"
+b000000000 '
+01
+b000000000 .
+0+
+b00000000 &
+0,
+$end
+#0
+1"
+11
+b000000001 '
+#1
+1+
+#6
+01
+b000000001 *
+0+
+1(
+#11
+1+
+#16
+10
+b000000000 *
+0+
+1,
+#21
+1+
+#26
+00
+b000000001 *
+0+
+0,
+#31
+1+
+#36
+10
+b000000000 *
+0+
+1,
+#41
+1+
+#46
+00
+b000000001 *
+0+
+0,
+#51
+1+
+#56
+10
+b000000000 *
+0+
+1,
+#61
+1+
+#66
+00
+b000000000 *
+0+
+0(
+0,
+#71
+1+
+#76
+0+

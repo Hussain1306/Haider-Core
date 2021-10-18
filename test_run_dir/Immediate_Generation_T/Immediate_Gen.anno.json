@@ -1,0 +1,22 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Immediate_Generation_T/Immediate_Gen.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Immediate_Gen|Immediate_Gen>io_immd_se",
+    "sources":[
+      "~Immediate_Gen|Immediate_Gen>io_instr",
+      "~Immediate_Gen|Immediate_Gen>io_pc"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Immediate_Generation_T"
+  }
+]

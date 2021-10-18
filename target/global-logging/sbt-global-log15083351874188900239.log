@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly RISC_V.TOPTest -- -DwriteVcd=1, Some(2c84f27f-2cb3-4740-a712-9ed93f914f30), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/hussainnaqvi/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:23:22: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("b001")[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m				   (io.func3 === "b001")-> "b0111".U,[0m
+[0m[[0m[31merror[0m] [0m[0m				                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:24:22: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("b101")[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m				   (io.func3 === "b101")-> "b0101".U,[0m
+[0m[[0m[31merror[0m] [0m[0m				                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:25:22: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("b010")[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m				   (io.func3 === "b010")-> "b1000".U,[0m
+[0m[[0m[31merror[0m] [0m[0m				                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/Alu_Control.scala:26:22: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("b011")[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m				   (io.func3 === "b011")-> "b1001".U[0m
+[0m[[0m[31merror[0m] [0m[0m				                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed Oct 14, 2021, 5:10:58 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

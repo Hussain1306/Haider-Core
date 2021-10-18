@@ -1,0 +1,165 @@
+1631786345359:testOnly example.andGateTest
+1631786822638:testOnly example.orgateTest
+1631788351259:testOnly example.notgateTest
+1631789068329:testOnly example.norgateTest
+1631789714008:testOnly example.nandgateTest
+1631790179262:testOnly example.xorgateTest
+1631790435606:testOnly example.xnorgateTest
+1631809938796:testOnly example.onebithalfadderTest
+1631810479297:testOnly example.twobithalfadderTest
+1631810907154:testOnly example.fourbithalfadderTest
+1631811680687:testOnly example.onebitfulladderTest
+1631812294518:testOnly examplonebitmuxTest
+1631812499402:testOnly example.testonebitmuxTest
+1631854592995:testOnly example.onebitmuxTest
+1631861128924:testOnly example.counterTest
+1631861921727:testOnly example.onebitmuxTest
+1631862281339:testOnly example.counterTest
+1631862832550:testOnly example.counterTest -- -DwriteVcd=1
+1631864422688:testOnly example.adderwithoffsetTest -- -DwriteVcd=1
+1631874723632:testOnly example.gencounterTest -- -DwriteVcd=1
+1631875186263:}
+1631875192765:testOnly example.gencounterTest -- -DwriteVcd=1
+1631876142859:testOnly example.counterTest -- -DwriteVcd=1
+1631876887948:testOnly example.scounterTest -- -DwriteVcd=1
+1631919077602:testOnly example.task2Test -- -DwriteVcd=1
+1631919359425:testOnly example.taskcounterTest -- -DwriteVcd=1
+1631921191922:testOnly example.secodtaskTest -- -DwriteVcd=1
+1632112937646:testOnly example.secondtaskTest -- -DwriteVcd=1
+1632113779371:testOnly example.secondtaskTest
+1632113791622:testOnly example.secondtaskTest -- -DwriteVcd=1
+1632113832979:testOnly example.task2Test -- -DwriteVcd=1
+1632113874172:testOnly example.secondtaskTest -- -DwriteVcd=1
+1632116468543:testOnly example.lab3expTest
+1632121158305:testOnly example.lab3expTest -- -DwriteVcd=1
+1632123239079:testOnly example.lab3_2expTest -- -DwriteVcd=1
+1632123590496:testOnly example.lab3expTest -- -DwriteVcd=1
+1632123663170:testOnly example.lab3_2expTest -- -DwriteVcd=1
+1632132719087:testOnly example.lab2ex2Test -- -DwriteVcd=1
+1632135050893:testOnly example.muxlookTest -- -DwriteVcd=1
+1632136959592:testOnly example.lab2ex2Test -- -DwriteVcd=1
+1632137871009:testOnly example.lab2ex3Test -- -DwriteVcd=1
+1632140068856:testOnly example.lab2task1Test -- -DwriteVcd=1
+1632227961219:testOnly example.lab2task2Test -- -DwriteVcd=1
+1632234929161:testOnly example.lab3ex2Test -- -DwriteVcd=1
+1632236767705:testOnly example.lab2task2Test -- -DwriteVcd=1
+1632237091763:testOnly example.lab3ex2Test -- -DwriteVcd=1
+1632289734890:testOnly example.lab3task1Test -- -DwriteVcd=1
+1632293720857:testOnly example.lab3task2Test -- -DwriteVcd=1
+1632296417597:testOnly example.lab3task3Test -- -DwriteVcd=1
+1632325748244:testOnly example.lab4task1Test -- -DwriteVcd=1
+1632376565439:testOnly example.lab4task2Test -- -DwriteVcd=1
+1632465551865:testOnly lab5.emuxTest -- -DwriteVcd=1
+1632467581597:testOnly lab5.switch2crossTest -- -DwriteVcd=1
+1632469472796:testOnly lab5.adderinputsTest -- -DwriteVcd=1
+1632470056542:testOnly lab5.TopTest -- -DwriteVcd=1
+1632485792198:testOnly lab5ex1Test -- -DwriteVcd=1
+1632486240887:testOnly lab5.lab5ex1Test -- -DwriteVcd=1
+1632676692366:testOnly lab5.lab5ex2Test -- -DwriteVcd=1
+1632677952227:testOnly lab5.lab5ex3Test -- -DwriteVcd=1
+1632678321701:testOnly lab5.lab5task1Test -- -DwriteVcd=1
+1632741369975:testOnly lab5.lab5task2Test -- -DwriteVcd=1
+1632742134421:testOnly lab5.lab5task3Test -- -DwriteVcd=1
+1632745181467:testOnly lab5.lab6ex1Test -- -DwriteVcd=1
+1632745588024:testOnly lab5.lab6ex2Test -- -DwriteVcd=1
+1632908611930:testOnly lab5.lab6ex3Test -- -DwriteVcd=1
+1632908877041:testOnly lab6.lab6ex3Test -- -DwriteVcd=1
+1632909052613:testOnly lab6.lab6ex2Test -- -DwriteVcd=1
+1632909071062:testOnly lab6.lab6ex1Test -- -DwriteVcd=1
+1632909348552:testOnly lab6.lab6ex3Test -- -DwriteVcd=1
+1632909696223:testOnly lab6.lab6ex4Test -- -DwriteVcd=1
+1632914958988:testOnly lab6.lab6task2Test -- -DwriteVcd=1
+1632930987880:testOnly lab6.lab6task3Test -- -DwriteVcd=1
+1632931913633:testOnly lab6.lab6task4Test -- -DwriteVcd=1
+1632933491056:testOnly lab7.lab7ex1Test -- -DwriteVcd=1
+1632935570587:testOnly lab7.lab7task1Test -- -DwriteVcd=1
+1632937410306:testOnly lab7.lab7task2Test -- -DwriteVcd=1
+1633123250820:testOnly lab8.lab8ex1Test -- -DwriteVcd=1
+1633125154278:testOnly lab8.lab8task1Test -- -DwriteVcd=1
+1633418790770:testOnly RISC_V.Control_typeTest -- -DwriteVcd=1
+1633454175165:testOnly RISC_V.Control_type_decodeTest -- -DwriteVcd=1
+1633455953119:testOnly RISC_V.Control_control_decodeTest -- -DwriteVcd=1
+1633470286072:testOnly RISC_V.Control_type_decodeTest -- -DwriteVcd=1
+1633484920269:testOnly lab1.lab1ex2Test -- -DwriteVcd=1
+1633485711351:testOnly lab3.lab3ex1Test -- -DwriteVcd=1
+1633486071855:testOnly lab3.lab3task1Test -- -DwriteVcd=1
+1633490604818:[A[
+1633490635355:testOnly RISC_V.Alu_ControlTest -- -DwriteVcd=1
+1633494331227:testOnly RISlab1.scountert -- -DwriteVcd=1
+1633494434733:testOnly lab1.scounterTest -- -DwriteVcd=1
+1633496001006:testOnly lab2.lab2ex3Test -- -DwriteVcd=1
+1633497615592:testOnly lab3.lab3ex1Test -- -DwriteVcd=1
+1633498188301:testOnly lab3.lab3e3task1Tes- -DwriteVcd=1
+1633498422046:testOnly lab3.lab3task2Test -- -DwriteVcd=1
+1633500881202:testOnly lab5.lab5task2Test -- -DwriteVcd=1
+1633502032985:testOnly lab6.lab6task3Test -- -DwriteVcd=1
+1633504648901:testOnly RISC_V.Control_control_decodeTest -- -DwriteVcd=1
+1633518777959:testOnly RISC_V.Control_type_decodeTest -- -DwriteVcd=1
+1633663023459:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1633669580893:testOnly RISC_V.Immediate_GenTest -- -DwriteVcd=1
+1633672663460:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1633674272605:testOnly RISC_V.Control_control_decodeTest -- -DwriteVcd=1
+1633676237803:testOnly RISBranchTestest -- -DwriteVcd=1
+1633676371032:testOnly RISC_V.BranchTestest -- -DwriteVcd=1
+1633676398089:testOnly RISC_V.BranchTest -- -DwriteVcd=1
+1633678747085:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1633679669719:testOnly RISC_V.BranchTest -- -DwriteVcd=1
+1633687360877:testOnly RISC_V.ALUControlTest -- -DwriteVcd=1
+1633688336818:testOnly RISC_V.AluControlTest -- -DwriteVcd=1
+1633688502891:testOnly RISC_V.Alu_ControlTest -- -DwriteVcd=1
+1633773513920:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1633774134973:testOnly RISC_V.Alu_ControlTest -- -DwriteVcd=1
+1633993843492:testOnly RISC_V.PCTest -- -DwriteVcd=1
+1633995382581:testOnly RISC_V.Ins_MemTest -- -DwriteVcd=1
+1633997787755:testOnly RISC_V.Reg_FileTest -- -DwriteVcd=1
+1633998413510:testOnly RISC_V.JALRTest -- -DwriteVcd=1
+1633998926785:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1633999233440:testOnly RISC_V.PCTest -- -DwriteVcd=1
+1634001312708:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1634001751988:testOnly RISC_V.PCTest -- -DwriteVcd=1
+1634003484622:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1634003602815:testOnly RISC_V.Immediate_GenTest -- -DwriteVcd=1
+1634003800816:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1634003866322:testOnly RISC_V.BranchTest -- -DwriteVcd=1
+1634003996347:testOnly RISC_V.PCTest -- -DwriteVcd=1
+1634053938516:testOnly RISC_V.Data_MemTest -- -DwriteVcd=1
+1634104697256:testOnly RISC_V.Ins_MemTest -- -DwriteVcd=1
+1634106278331:testOnly RISC_V.Alu_ControlTest -- -DwriteVcd=1
+1634106521612:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1634107505150:testOnly RISC_V.BranchTest -- -DwriteVcd=1
+1634107989182:testOnly RISC_V.Control_control_decodeTest -- -DwriteVcd=1
+1634108539582:testOnly RISC_V.Control_type_decodeTest -- -DwriteVcd=1
+1634109459508:testOnly RISC_V.Data_MemTest -- -DwriteVcd=1
+1634109971706:testOnly RISC_V.Immediate_GenTest -- -DwriteVcd=1
+1634110217659:testOnly RISC_V.JALRTest -- -DwriteVcd=1
+1634110375323:testOnly RISC_V.PCTest -- -DwriteVcd=1
+1634111344102:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1634118214802:testOnly RISC_V.Data_MemTest -- -DwriteVcd=1
+1634120728243:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1634122411357:testOnly RISC_V.ControlTest -- -DwriteVcd=1
+1634125240956:testOnly RISC_V.TOPTest -- -DwriteVcd=1
+1634198621843:testOnly RISC_V.ControlTest -- -DwriteVcd=1
+1634205044332:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1634205084720:testOnly RISC_V.TOPTest -- -DwriteVcd=1
+1634205780378:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1634206397282:testOnly RISC_V.TOPTest -- -DwriteVcd=1
+1634419009033:testOnly RISC_V.ALUTest -- -DwriteVcd=1
+1634419047542:testOnly RISC_V.TOPTest -- -DwriteVcd=1
+1634419657224:testOnly RISC_V.Alu_ControlTest -- -DwriteVcd=1
+1634420211271:testOnly RISC_V.TOPTest -- -DwriteVcd=1
+1634499975515:testOnly RISC_V.ControlTest -- -DwriteVcd=1
+1634503028082:testOnly RISC_V.TOPTest -- -DwriteVcd=1
+1634503211094:testOnly RISC_V.Control_control_decodeTest -- -DwriteVcd=1
+1634504567223:testOnly RISC_V.ControlTest -- -DwriteVcd=1
+1634504745979:testOnly RISC_V.Control_control_decodeTest -- -DwriteVcd=1
+1634504828787:testOnly RISC_V.ControlTest -- -DwriteVcd=1
+1634504959966:testOnly RISC_V.TOPTest -- -DwriteVcd=1
+1634505134627:testOnly RISC_V.Control_control_decodeTest -- -DwriteVcd=1
+1634505331136:testOnly RISC_V.ControlTest -- -DwriteVcd=1
+1634505455652:testOnly RISC_V.TOPTest -- -DwriteVcd=1
+1634537543617:testOnly RISC_V.ControlTest -- -DwriteVcd=1
+1634537610999:testOnly RISC_V.TOPTest -- -DwriteVcd=1
+1634544034156:testOnly RISC_V.Data_MemTest -- -DwriteVcd=1
+1634545060006:testOnly RISC_V.TOPTest -- -DwriteVcd=1
+1634545287868:testOnly RISC_V.Data_MemTest -- -DwriteVcd=1
+1634545865694:testOnly RISC_V.TOPTest -- -DwriteVcd=1

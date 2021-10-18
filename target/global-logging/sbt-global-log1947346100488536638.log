@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly RISC_V.TOPTest -- -DwriteVcd=1, Some(542c869f-c0cc-4273-baec-136ecefe99bf), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/hussainnaqvi/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/TOP.scala:62:9: missing argument list for method apply in object when[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_)(_)(_,_)` instead of `apply`.[0m
+[0m[[0m[31merror[0m] [0m[0m    when(control.io.extend_sel === "b00".U) && ( control.io.operand_B_sel === "b00".U){[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/hussainnaqvi/Scala-Chisel-Learning-Journey/src/main/scala/RISC_V/TOP.scala:62:75: overloaded method value apply with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: chisel3.UInt)chisel3.Bool <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: Int)chisel3.Bool <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (x: BigInt)chisel3.Bool[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (Unit)[0m
+[0m[[0m[31merror[0m] [0m[0m    when(control.io.extend_sel === "b00".U) && ( control.io.operand_B_sel === "b00".U){[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Oct 18, 2021, 11:07:11 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
